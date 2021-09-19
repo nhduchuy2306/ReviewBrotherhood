@@ -9,6 +9,47 @@
 	<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
 	<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="style.css">
+	<style>
+		@media only screen 
+		and (device-width : 375px) 
+		and (device-height : 812px) 
+		and (-webkit-device-pixel-ratio : 3) {
+			.row .col-md-4 img{
+				width: 320px!important;
+			}
+		}
+		@media only screen 
+		and (device-width : 375px) 
+		and (device-height : 667px) 
+		and (-webkit-device-pixel-ratio : 2)  {
+			.row .col-md-4 img{
+				width: 320px!important;
+			}
+		}
+		@media only screen 
+		and (min-width: 768px) 
+		and (max-height: 1024px) 
+		and (-webkit-device-pixel-ratio: 3) {
+			.page img {
+				width: 700px;
+				height: 389px;
+			}
+			.col-md-9 p{
+				font-size:24px;
+			}
+			.col-md-8 p{
+				font-size:24px;
+			}
+		}
+		@media only screen 
+		and (min-width: 412px) 
+		and (max-height: 846px) 
+		and (-webkit-device-pixel-ratio: 2) {
+			.page img {
+				width: 354px;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -18,8 +59,8 @@
 				<a href="index.html" id="branding">
 					<img src="images/logo.png" alt="" class="logo">
 					<div class="logo-copy">
-						<h1 class="site-title">Company Name</h1>
-						<small class="site-description">Tagline goes here</small>
+						<h1 class="site-title">Review Brotherhood</h1>
+						<small>-----------------------------------------------------</small>
 					</div>
 				</a> <!-- #branding -->
 				<div class="main-navigation">
@@ -83,7 +124,7 @@
 					<div class="row">
 						<div class="col-md-3">
 							<div class="team">
-								<figure class="team-image"><img src="dummy/images.png" alt=""></figure>
+								<figure class="team-image"><img src="dummy/unnamed.jpg" alt=""></figure>
 								<h2 class="team-name">Nguyễn Hoàng Đức Huy</h2>
 								<small class="team-title">Team leader</small>
 								<div class="social-links">
@@ -171,10 +212,9 @@
 				</div>
 			</div> <!-- .container -->
 		</main>
-		<footer style="background-color: rgba(255, 255, 255, 0.377);height: 60px; ">
-			<div class="container" style="margin:auto; width:500px;">
-				<div class="colophon"
-					style="color: black; text-align: center; font-size: 20px; font-weight: bold; padding-top: 20px;">
+		<footer ">
+			<div class="container"">
+				<div class="colophon">
 					Copyright Team Review Brotherhood!!!</div>
 			</div> <!-- .container -->
 		</footer>
